@@ -25,17 +25,35 @@
   margin-top: 10px;
    
 }
+ 
+@media only screen and (max-width :499px){
+  #newbody{
+    margin: auto!important;
+   width:498px!important;
+ 
+    
+  }
+@media only screen and(orientation: landscape){
+  #newbody{
+  margin: auto!important;
+  
+}
+}
+
 </style>
-<body >
-  <header>
+<div id="all">
+  <header id="media1">
   <nav class="navbar navbar-dark indigo" style="justify-content: center; font-weight: bold; margin : 20px auto 20px auto;width:500px;">
     <span class="navbar-text white-text">
      <a href="https://academy.codershiyar.com/"> U Can Learn Web Design In Shiyar Academy</a>
     </span>
   </nav>
+</div>
+<body id="newbody">
+  
 
   <!--Carousel Wrapper-->
-<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel ">
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel " >
   <!--Indicators-->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
